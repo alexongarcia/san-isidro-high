@@ -1,0 +1,16 @@
+/**
+ * Hide Datatables default header sort icon
+**/
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+.dataTables_paginate ul.pagination li.paginate_button {
+    padding: 0;
+    margin: 0;
+}
+.dataTables_paginate ul.pagination li.paginate_button:hover,
+.dataTables_paginate ul.pagination li.paginate_button:active {
+    border: none;
+}

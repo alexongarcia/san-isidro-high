@@ -7,5 +7,8 @@ return [
     'students.list' => 'View all students',
     'teachers' => 'Teachers',
     'teachers.create' => ' Create a new teacher',
-    'teachers.list' => 'View all teachers'
+    'teachers.list' => 'View all teachers',
+    'users' => 'Users',
+    'users.create' => ' Create a new user',
+    'users.list' => 'View all users'
 ];

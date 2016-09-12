@@ -49,6 +49,13 @@
                     <li><a href="#"><i class='fa fa-list'></i>{{ trans('message.teachers.list') }}</a></li>
                 </ul>
             </li>
+            <li class="treeview">
+                <a href="#"><i class='fa fa-users'></i> <span>{{ trans('message.users') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ url('users/create') }}"><i class='fa fa-user-plus'></i>{{ trans('message.users.create') }}</a></li>
+                    <li><a href="{{ url('users') }}"><i class='fa fa-list'></i>{{ trans('message.users.list') }}</a></li>
+                </ul>
+            </li>
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
